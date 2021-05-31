@@ -126,9 +126,11 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+
             children: <Widget>[
               Container(
-                width: MediaQuery.of(context).size.height * .75,
+                width: MediaQuery.of(context).size.height * .42,
                 child: Table(
                   children: [
                     TableRow(children: [
